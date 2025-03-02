@@ -1,4 +1,5 @@
 export const LOGIN_AND_DELETE_CONSTANTS = {
+  LOGIN_URL: "login",
   LOGIN_BUTTON: '',
   ADD_NEW_FORM_BUTTON: '[data-cy="add-form-button"]',
   START_FROM_SCRATCH_BUTTON: '[data-cy="start-from-scratch-button"]',
