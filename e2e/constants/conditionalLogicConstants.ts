@@ -1,0 +1,41 @@
+export const CONDITIONAL_LOGIC_CONSTANTS = {
+    SINGLE_CHOICE_BUTTON: "role=button[name='Single choice']",
+    QUESTION_INPUT: "role=textbox[name='Question']",
+    OPTION_3_HOVER: "[data-cy='option-input-3']",
+    DELETE_OPTION_3: "[data-cy='delete-option-button-3']",
+    OPTION_2_HOVER: "[data-cy='option-input-2']",
+    DELETE_OPTION_2: "[data-cy='delete-option-button-2']",
+    OPTION_0_INPUT: "[data-cy='option-input-0']",
+    OPTION_1_INPUT: "[data-cy='option-input-1']",
+  
+    multipleChoicePreviewGroup: "[data-cy='multiple-choice-preview-group']",
+    emailPreviewGroup: "[data-cy='email-preview-group']",
+    SETTINGS_LINK: "[data-cy='settings-tab']",
+    CONDITIONAL_LOGIC_ADD: "[data-cy='conditional-logic-settings-link']",
+    ADD_CONDITION_BUTTON: "[data-cy='no-data-primary-button']",
+    FIELD_SELECTOR: "[data-cy='nui-select-value-container']",
+    MENU_LIST: "[data-cy='menu-list']",
+    // 
+    CONDITION_TYPE_SELECTOR: "div:nth-child(2) > .neeto-ui-react-select__container",
+    CONDITION_TYPE_CONTAINS: "contains",
+    CONDITION_VALUE_INPUT: "[data-cy='condition-value-select-input']",
+    YES_SELECT_OPTION: "[data-cy='yes-select-option']",
+    ACTION_SELECTOR: "combobox",
+    ACTION_SHOW: "Show",
+    TARGET_FIELD_SELECTOR: ".flex > div:nth-child(2) > .neeto-ui-react-select__container",
+    EMAIL_FIELD_OPTION: "Email address",
+    SAVE_BUTTON: "[data-cy='save-changes-button']",
+    PUBLISH_BUTTON: "[data-cy='publish-button']",
+  
+    PUBLISH_PREVIEW_BUTTON: "[data-cy='publish-preview-button']",
+    NO_OPTION: "[data-cy='single-choice-option']",
+    SUBMIT_BUTTON: "[data-cy='start-or-submit-button']",
+    THANK_YOU_PAGE: "[data-cy='thank-you-page-content']",
+    YES_OPTION: "Yes",
+    EMAIL_LABEL: "text=Email address*",
+    EMAIL_INPUT: "role=textbox",
+  
+    CONDITIONAL_LOGIC_DROPDOWN: "[data-cy='conditional-logic-dropdown']",
+    DISABLE_CONDITIONS_BUTTON: "[data-cy='conditions-Disable-button']",
+  };
+  

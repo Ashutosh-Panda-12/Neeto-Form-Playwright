@@ -1,0 +1,17 @@
+export const MANAGE_ACCESS_CONTROL_CONSTANTS = {
+  PUBLISH_BUTTON: "[data-cy='publish-button']",
+  SETTINGS_LINK: "[data-cy='settings-tab']",
+  ACCESS_CONTROL_LINK: "[data-cy='access-control-settings-link']",
+  PASSWORD_RADIO: "[data-cy='access-control-password-protected-radio-input']",
+  PASSWORD_INPUT: "[data-cy='password-input-field']",
+  PASSWORD_ERROR: "[data-cy='password-input-error']",
+  PUBLISH_PREVIEW_BUTTON: "[data-cy='publish-preview-button']",
+  SAVE_CHANGES_BUTTON: "[data-cy='save-changes-button']",
+  SHARE_LINK: "role=link[name='Share']",
+  COPY_LINK_INPUT: "[data-cy='nui-input-field']",
+  PASSWORD_INPUT_NEW_PAGE: "role=textbox[name='Password']",
+  PASSWORD_SUBMIT_BUTTON: "role=button[name='Submit']",
+  EMAIL_TEXT: "Email address*",
+  TEXTBOX: "[data-cy='email-text-field']",
+  FORM_SUBMIT_BUTTON: "[data-cy='start-or-submit-button']",
+};
