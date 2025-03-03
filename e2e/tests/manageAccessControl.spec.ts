@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
-import { LoginAndDelete } from "../poms/loginAndDelete";
-import { ManageAccessControl } from "../poms/manageAccessControl";
+import { LoginAndDelete } from "../pom/loginAndDelete";
+import { ManageAccessControl } from "../pom/manageAccessControl";
 
 test.describe("Manage access control of the form", () => {
   test("should create a new form, set password protection, and verify access", async ({ browser, page }) => {

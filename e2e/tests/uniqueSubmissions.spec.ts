@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
-import { LoginAndDelete } from "../poms/loginAndDelete";
-import { UniqueSubmissions } from "../poms/uniqueSubmissions";
+import { LoginAndDelete } from "../pom/loginAndDelete";
+import { UniqueSubmissions } from "../pom/uniqueSubmissions";
 
 test.describe("Ensure only unique submissions are done", () => {
   test("should create a form, enable unique submissions, and verify the behavior", async ({ browser, page }) => {

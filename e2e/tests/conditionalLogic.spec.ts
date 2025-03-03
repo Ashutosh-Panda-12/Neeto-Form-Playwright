@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
-import { LoginAndDelete } from "../poms/loginAndDelete";
-import { ConditionalLogic } from "../poms/conditionalLogic";
+import { LoginAndDelete } from "../pom/loginAndDelete";
+import { ConditionalLogic } from "../pom/conditionalLogic";
 
 test.describe("Ensure that conditional logic is verified", () => {
   test("should create a new form, add a single-choice element, set conditions, and verify functionality", async ({ page }) => {
