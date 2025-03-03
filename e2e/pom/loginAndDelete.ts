@@ -9,7 +9,7 @@ export class LoginAndDelete {
   }
 
   async loginAsOliver() {
-    await this.page.goto("login");
+    await this.page.goto(LOGIN_AND_DELETE_CONSTANTS.LOGIN_URL);
     await this.page.getByRole('button', { name: 'Login as Oliver' }).click();
     await this.page.locator(LOGIN_AND_DELETE_CONSTANTS.ADD_NEW_FORM_BUTTON).click();
     await this.page.locator(LOGIN_AND_DELETE_CONSTANTS.START_FROM_SCRATCH_BUTTON).click();
