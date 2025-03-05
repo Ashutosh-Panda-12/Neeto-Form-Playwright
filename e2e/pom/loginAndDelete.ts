@@ -15,7 +15,6 @@ export class LoginAndDelete {
     await this.page.locator(LOGIN_AND_DELETE_CONSTANTS.START_FROM_SCRATCH_BUTTON).click();
 
   }
-
   async deleteForm() {
     await this.page.locator(LOGIN_AND_DELETE_CONSTANTS.DELETE_MENU_BUTTON).click();
     await this.page.locator(LOGIN_AND_DELETE_CONSTANTS.DELETE_BUTTON).click();

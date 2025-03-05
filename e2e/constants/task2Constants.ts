@@ -1,0 +1,23 @@
+export const TASK2_CONSTANTS = {
+    ADD_OPINION_SCALE: "add-opinion-scale-element",
+    ADD_STAR_RATING: "add-star-rating-element",
+    ADD_MATRIX: "add-matrix-element",
+    CONTENT_TEXT_FIELD: "content-text-field",
+    STAR_RATING_GROUP: "star-rating-preview-group",
+    OPINION_SCALE_GROUP: "opinion-scale-preview-group",
+    PUBLISH_BUTTON: "publish-button",
+    PUBLISH_PREVIEW_BUTTON: "publish-preview-button",
+    EMAIL_TEXT_FIELD: "email-text-field",
+    OPINION_SCALE: "form-opinion-scale",
+    PREVIEW_RATING_ICON: "preview-rating-icon",
+    CLOSE_PANE_BUTTON: "pane-close-button",
+    SUBMIT_BUTTON: "start-or-submit-button",
+    THANK_YOU_PAGE: "thank-you-page-content",
+    SUBMISSIONS_TAB: "submissions-tab",
+    SUBMITTED_RESPONSE: "submitted-response-1",
+    VIEW_SUBMISSION_BUTTON: "view-submission-1-button",
+    BACKDROP: "backdrop",
+    PDF_RADIO_LABEL: "pdf-radio-label",
+    ACTION_DROPDOWN_BUTTON: "action-dropdown-btn",
+  };
+  
