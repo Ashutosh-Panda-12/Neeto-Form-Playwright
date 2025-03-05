@@ -18,7 +18,7 @@ export default defineConfig({
   use: {
     trace: 'on',
     baseURL: "https://neeto-form-web-playwright.neetodeployapp.com",
-    // testIdAttribute: "data-cy",
+    testIdAttribute: "data-cy",
   },
   
   projects: [
