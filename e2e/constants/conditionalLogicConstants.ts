@@ -7,7 +7,7 @@ export const CONDITIONAL_LOGIC_CONSTANTS = {
     DELETE_OPTION_2: "[data-cy='delete-option-button-2']",
     OPTION_0_INPUT: "[data-cy='option-input-0']",
     OPTION_1_INPUT: "[data-cy='option-input-1']",
-  
+    
     multipleChoicePreviewGroup: "[data-cy='multiple-choice-preview-group']",
     emailPreviewGroup: "[data-cy='email-preview-group']",
     SETTINGS_LINK: "[data-cy='settings-tab']",

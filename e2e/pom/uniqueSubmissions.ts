@@ -10,7 +10,7 @@ export class UniqueSubmissions {
     this.page = page;
     this.browser = browser;
   }
-
+  
   async enableUniqueSubmissions() {
     await this.page.locator(UNIQUE_SUBMISSIONS_CONSTANTS.PUBLISH_BUTTON).click();
     await this.page.locator(UNIQUE_SUBMISSIONS_CONSTANTS.SETTINGS_LINK).click();

@@ -7,7 +7,7 @@ export class ManageAccessControl {
   private browser: Browser;
   private copyLink: string = "";
   private password: string = "demopassword";
-
+  
   constructor(page: Page, browser: Browser) {
     this.page = page;
     this.browser = browser;

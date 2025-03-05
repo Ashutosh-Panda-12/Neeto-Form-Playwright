@@ -7,7 +7,7 @@ export class LoginAndDelete {
   constructor(page: Page) {
     this.page = page;
   }
-
+  
   async loginAsOliver() {
     await this.page.goto("login");
     await this.page.getByRole('button', { name: 'Login as Oliver' }).click();

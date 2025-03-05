@@ -5,7 +5,7 @@ export const UNIQUE_SUBMISSIONS_CONSTANTS = {
     USE_COOKIES_RADIO: "[data-cy='unique-submission-radio-item-info']",
     SAVE_CHANGES_BUTTON: "[data-cy='save-changes-button']",
     PUBLISH_PREVIEW_BUTTON: "[data-cy='publish-preview-button']",
-  
+    
     TEXTBOX: "[data-cy='email-text-field']",
     SUBMIT_BUTTON: "role=button[name='Submit']",
     THANK_YOU_PAGE: "[data-cy='thank-you-page-content']",

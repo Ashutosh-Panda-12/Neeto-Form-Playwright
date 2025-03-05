@@ -20,7 +20,7 @@ export default defineConfig({
     baseURL: "https://neeto-form-web-playwright.neetodeployapp.com",
     // testIdAttribute: "data-cy",
   },
-
+  
   projects: [
     {
       name: 'login',

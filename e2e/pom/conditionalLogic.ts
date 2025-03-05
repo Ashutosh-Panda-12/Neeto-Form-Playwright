@@ -32,7 +32,7 @@ export class ConditionalLogic {
             await this.page.mouse.up();
         }
   }
-
+  
   async setConditionalLogic() {
     await this.page.locator(CONDITIONAL_LOGIC_CONSTANTS.SETTINGS_LINK).click();
     await this.page.locator(CONDITIONAL_LOGIC_CONSTANTS.CONDITIONAL_LOGIC_ADD).click();

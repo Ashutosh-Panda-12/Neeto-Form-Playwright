@@ -12,7 +12,7 @@ export class TestFixtures {
   public conditionalLogic: ConditionalLogic;
   public uniqueSubmissions: UniqueSubmissions;
   public manageAccessControl: ManageAccessControl;
-
+  
   constructor(page: Page, browser: Browser) {
     this.loginAndDelete = new LoginAndDelete(page);
     this.conditionalLogic = new ConditionalLogic(page);
