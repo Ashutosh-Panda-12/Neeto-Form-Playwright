@@ -19,8 +19,8 @@ export class ConditionalLogic {
     await this.page.locator(CONDITIONAL_LOGIC_CONSTANTS.OPTION_0_INPUT).fill("Yes");
     await this.page.locator(CONDITIONAL_LOGIC_CONSTANTS.OPTION_1_INPUT).fill("No");
 
-    const start = await this.page.locator(CONDITIONAL_LOGIC_CONSTANTS.multipleChoicePreviewGroup);
-    const end = await this.page.locator(CONDITIONAL_LOGIC_CONSTANTS.emailPreviewGroup);
+    const start = await this.page.locator(CONDITIONAL_LOGIC_CONSTANTS.MULTIPLE_CHOICE_PREVIEW_GROUP);
+    const end = await this.page.locator(CONDITIONAL_LOGIC_CONSTANTS.EMAIL_PREVIEW_GROUP);
         const box = await start.boundingBox();
         if (box) {
             const startX = box.x + box.width / 2;

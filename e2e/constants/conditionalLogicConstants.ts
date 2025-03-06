@@ -8,8 +8,8 @@ export const CONDITIONAL_LOGIC_CONSTANTS = {
     OPTION_0_INPUT: "[data-cy='option-input-0']",
     OPTION_1_INPUT: "[data-cy='option-input-1']",
     
-    multipleChoicePreviewGroup: "[data-cy='multiple-choice-preview-group']",
-    emailPreviewGroup: "[data-cy='email-preview-group']",
+    MULTIPLE_CHOICE_PREVIEW_GROUP: "[data-cy='multiple-choice-preview-group']",
+    EMAIL_PREVIEW_GROUP: "[data-cy='email-preview-group']",
     SETTINGS_LINK: "[data-cy='settings-tab']",
     CONDITIONAL_LOGIC_ADD: "[data-cy='conditional-logic-settings-link']",
     ADD_CONDITION_BUTTON: "[data-cy='no-data-primary-button']",
