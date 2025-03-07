@@ -1,7 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-
-export const STORAGE_STATE = "./auth/session.json";
-
+import { STORAGE_STATE } from './e2e/constants/common';
 
 export default defineConfig({
   testDir: './e2e/tests',
@@ -17,10 +15,10 @@ export default defineConfig({
 
   use: {
     trace: 'on',
-    baseURL: "https://neeto-form-web-playwright.neetodeployapp.com",
-    // testIdAttribute: "data-cy",
+    baseURL: "https://neeto-form-web-playwright.neetodeployapp.com/",
+    testIdAttribute: "data-cy",
   },
-  
+
   projects: [
     {
       name: 'login',
