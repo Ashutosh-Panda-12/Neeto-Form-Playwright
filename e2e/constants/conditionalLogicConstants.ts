@@ -1,0 +1,35 @@
+export const conditionalLogicConstants = {
+  singleChoiceButton: "add-single-choice-element",
+  questionInput: "content-text-field",
+  option3Hover: "option-input-3",
+  deleteOption3: "delete-option-button-3",
+  option2Hover: "option-input-2",
+  deleteOption2: "delete-option-button-2",
+  option0Input: "option-input-0",
+  option1Input: "option-input-1",
+
+  multipleChoicePreviewGroup: "multiple-choice-preview-group",
+  emailPreviewGroup: "email-preview-group",
+  settingsLink: "settings-tab",
+  conditionalLogicAdd: "conditional-logic-settings-link",
+  addConditionButton: "no-data-primary-button",
+  fieldSelector: "nui-select-value-container",
+  menuList: "menu-list",
+
+  conditionTypeSelector: "nui-select-container-wrapper",
+  conditionValueInput: "condition-value-select-input",
+  yesSelectOption: "yes-select-option",
+  targetFieldSelector: "condition-value-text-input",
+  saveButton: "save-changes-button",
+  publishButton: "publish-button",
+  selectPlaceholderButton: "nui-select-placeholder",
+
+  publishPreviewButton: "publish-preview-button",
+  yesOrNoOption: "single-choice-option",
+  submitButton: "start-or-submit-button",
+  thankYouPage: "thank-you-page-content",
+  emailInput: "email-text-field",
+
+  conditionalLogicDropdown: "conditional-logic-dropdown",
+  disableConditionsButton: "conditions-Disable-button",
+};
